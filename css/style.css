@@ -20,11 +20,22 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 .share-btn:hover {
     background-color: #0D1B2A;
     border: 1px solid #0D1B2A;
+}
+
+.hero-btn {
+    width: 180px;
+    padding: 15px 30px;
+}
+
+.hero-btn:hover {
+    background-color: white;
+    color: #0D1B2A;
 }
 
 /* navbar style */
@@ -35,6 +46,10 @@ nav {
     padding: 15px 0;
 }
 
+nav img {
+    cursor: pointer;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -43,7 +58,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 nav ul li a {
@@ -69,4 +84,30 @@ nav ul li a:hover {
     background-size: cover;
 }
 
-.hero-container {}
+.hero-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.hero-content h1 span {
+    font-style: italic;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
