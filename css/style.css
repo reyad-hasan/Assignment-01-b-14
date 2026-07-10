@@ -1,5 +1,72 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
+
+/* share style-and common style */
+.width-max {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+.share-btn {
+    background-color: #2563EB;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.share-btn:hover {
+    background-color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+
+/* navbar style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 16px;
+}
+
+nav ul li a {
+    color: #727070;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #2563EB;
+}
+
+/* hero-section style */
+.hero-section {
+    background:
+        linear-gradient(to top right,
+            rgba(0, 0, 0, 0.993),
+            rgba(15, 15, 15, 0)),
+        url("../assets/banner.jpg");
+    height: 90.8vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-container {}
