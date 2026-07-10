@@ -111,3 +111,49 @@ nav ul li a:hover {
     font-size: 18px;
     font-weight: 300;
 }
+
+/* Meet the Speakers section style */
+.meet-section {
+    margin-top: 70px;
+}
+
+.meet-section h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.meet-grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 40px;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.meet-grid-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box {
+    border: 1px solid rgba(122, 121, 121, 0.199);
+    border-radius: 5px;
+}
+
+.box p:nth-of-type(1) {
+    color: #2563EB;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.box h2 {
+    margin: -12px 0;
+    padding-left: 15px;
+}
+
+.box p:nth-of-type(2) {
+    color: #727070;
+    padding-left: 15px;
+}
