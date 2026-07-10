@@ -125,7 +125,7 @@ nav ul li a:hover {
 
 .meet-grid-box {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, 550px);
     gap: 40px;
     justify-content: center;
     margin-top: 35px;
@@ -156,4 +156,138 @@ nav ul li a:hover {
 .box p:nth-of-type(2) {
     color: #727070;
     padding-left: 15px;
+}
+
+/* secure-section style */
+.secure-section {
+    margin-top: 100px;
+}
+
+.secure-section>h1 {
+    margin: -10px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.secure-section>p {
+    color: #727070;
+    text-align: center;
+}
+
+.hr-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+}
+
+.hr-box>.hr {
+    height: 2px;
+    width: 30px;
+    background-color: rgba(255, 0, 0, 0.644);
+}
+
+/* pricing card section style */
+.pricing-card-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 40px;
+}
+
+.card-0 {
+    width: 300px;
+    border: 1px solid rgba(122, 121, 121, 0.199);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.card-0 p:nth-of-type(1) {
+    color: #727070ad;
+    font-size: 16px;
+}
+
+.card-0 h1 {
+    margin: -18px 0;
+    font-size: 50px;
+}
+
+.card-0 p:nth-of-type(2) {
+    color: #727070ad;
+    font-size: 14px;
+}
+
+.card-0 hr {
+    border: none;
+    border: 1px solid #72707031;
+}
+
+.card-0 ul {
+    padding: 15px;
+}
+
+.card-0 ul li::marker {
+    color: #2563EB;
+}
+
+.card-0 ul li {
+    color: #242323ce;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.pricing-btn {
+    background-color: white;
+    border: 1px solid #2563EB;
+    padding: 15px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #2563EB;
+    font-size: 18px;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.pricing-btn:hover {
+    background-color: #2563EB;
+    color: white;
+}
+
+/* card-01 style */
+.card-01 {
+    background-color: #0D1B2A;
+}
+
+.card-01 p:nth-of-type(1) {
+    color: #2564ebd7;
+    font-weight: bold;
+}
+
+.card-01 h1 {
+    color: white;
+}
+
+.card-01 p:nth-of-type(2) {
+    color: #adaaaae0;
+}
+
+.card-01 ul li {
+    color: rgb(158, 154, 154);
+}
+
+.card-01 button {
+    background-color: #2563EB;
+    color: white;
+}
+
+.card-01 button:hover {
+    background-color: white;
+    color: #2563EB;
 }
