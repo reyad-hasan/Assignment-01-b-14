@@ -407,3 +407,23 @@ form input:focus {
     box-shadow: 0px 2px 8px rgb(109, 109, 109);
     border: 2px solid #2563EB;
 }
+
+/* footer section style */
+footer {
+    background-color: #0D1B2A;
+    padding: 15px 0px;
+    margin-top: 70px;
+    color: #727070;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
